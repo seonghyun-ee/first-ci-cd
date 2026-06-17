@@ -35,6 +35,6 @@ spec:
     kind: ClusterIssuer
   commonName: server.leesh13.store
   dnsNames:
-  # 추가적인 서브도메인을 추가하고 싶은경우에 여기에 나열
+  # 추가적인 서브도메인을 추가하고 싶은경우에 여기에 나열한다
   - server.leesh13.store
 
