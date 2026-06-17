@@ -33,5 +33,3 @@ spec:
   commonName: server.bradkim197.shop
   dnsNames:
   - server.bradkim197.shop
-
-##
