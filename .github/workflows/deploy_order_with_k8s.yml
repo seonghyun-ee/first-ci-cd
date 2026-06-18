@@ -1,4 +1,10 @@
 # 세팅 경로는 무조건 root!
+# 1. 소스 코드 클론
+# 2. kubectl 설치 및 cluster 생성
+# 3. aws cli 설치 및 configure
+# 4. docker image build & push
+# 5. pod restart
+# 6. github ingress 학습
 
 name: deploy order order-backend
 
@@ -49,10 +55,3 @@ jobs:
         run: |
           kubectl rollout restart deployment ordersystem-backend -n leesh13
         # kubectl apply -f ./2.ordersystem/k8s/k8s-ordersystem/depl_svc.yml
-
-
-# 1. 소스 코드 클론
-# 2. kubectl 설치 및 cluster 생성
-# 3. aws cli 설치 및 configure
-# 4. docker image build & push
-# 5. pod restart
