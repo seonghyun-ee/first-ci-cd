@@ -4,7 +4,7 @@
 # 3. aws cli 설치 및 configure
 # 4. docker image build & push
 # 5. pod restart
-# 6. github ingress 학습
+# 6. github ingress 학습 ##
 
 name: deploy order order-backend
 
